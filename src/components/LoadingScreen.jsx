@@ -1,17 +1,42 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 
 export const LoadingScreen = ({ onComplete }) => {
   const [text, setText] = useState("");
-  const fullText = "Hi there!! Please excuse the 404 errors in personality - still debugging.😅";
+  const [fullText, setFullText] = useState("");
+
+  // Array of random phrases
+  const phrases = [
+    "Hi there! Welcome to my code zone-expect some bugs and occasional brilliance!💻🦠",
+    "Hi there! This profile is running in 'Development Mode'... Expect a few glitches! ⚡💻" ,
+    "Hi there! My code is better than my jokes.😅",
+    "Welcome! Let’s debug this together.🛠️",
+    "Hi there! This profile is still compiling...⌛",
+    "Welcome! I promise I’m better than my Git commit messages.😅",
+    "Welcome! Warning: May contain random thoughts and semicolons.😉",
+    "Welcome! I guarantee I’m better at handling exceptions in code than in conversations.⚡",
+    "I'm better at catching bugs than catching up with friends.🐞",
+    "Welcome! Please ignore 404 in this person's personality, (if any😉)."
+  ];
+
+  // Function to get a random phrase
+  const getRandomPhrase = () => {
+    const randomIndex = Math.floor(Math.random() * phrases.length);
+    return phrases[randomIndex];
+  };
+  //const fullText = getRandomPhrase(); // Get a random phrase each time
   
 
-  useEffect(() => {
+  useEffect(() => { 
+    // Set the random phrase to the state
+    const randomPhrase = getRandomPhrase();
+    setFullText(randomPhrase);
+
     let index = 0;
     const interval = setInterval(() => {
-      setText(fullText.substring(0, index));
+      setText(randomPhrase.substring(0, index));
       index++;
 
-      if (index > fullText.length) {
+      if (index > randomPhrase.length) {
         clearInterval(interval);
 
         setTimeout(() => {

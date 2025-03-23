@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from "emailjs-com";
+//import { useEffect } from "react";
 
 export const Contact = () => {
 
@@ -19,16 +20,24 @@ export const Contact = () => {
         import.meta.env.VITE_SERVICE_ID,
         import.meta.env.VITE_TEMPLATE_ID,
         e.target,
-        import.meta.env.VITE_PUBLIC_KEY
+        import.meta.env.VITE_PUBLIC_KEY 
       )
+      
       .then((result) => {
+        console.error("SUCCESS:", result.text);
         alert("Message Sent!");
         setFormData({ name: "", email: "", message: "" });
       })
-      .catch(() => alert("Oops! Something went wrong. Please try again."));
+      .catch((error) => {
+        console.error("EmailJS Error:", error.text);
+        alert("Oops! Something went wrong. Please try again.")});
+      
   };
+  
 
   return (
+    
+
     <section
       id="contact"
       className="min-h-screen flex items-center justify-center py-20"
@@ -44,7 +53,7 @@ export const Contact = () => {
               <input
                 type="text"
                 id="name"
-                name="name"
+                name="from_name"
                 required
                 value={formData.name}
                 className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"

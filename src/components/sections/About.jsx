@@ -130,16 +130,16 @@ export const About = () => {
                   (2022-2023)
                 </li>
                 <li>
-                  <strong>Relevant Coursework: </strong><p className="italic"> Web Development, Cloud
-                  Computing, Secure System Architecture, Data science and Machine Learning, Networking </p>
+                  <strong>Relevant Coursework: </strong><span className="italic"> Web Development, Cloud
+                  Computing, Secure System Architecture, Data science and Machine Learning, Networking </span>
                 </li>
                 <li>
-                  <strong>Dissertation:</strong> <p className="italic">Disease detection using speech articulation: : Exploring Machine Learning Approaches for Early Diagnosis</p>
+                  <strong>Dissertation:</strong> <span className="italic">Disease detection using speech articulation: : Exploring Machine Learning Approaches for Early Diagnosis</span>
                 </li>
               </ul>
             </div>
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 💼 Work Experience <p className="text-xs text-gray-400">(PART-TIME)<p>Multithreading between dreams in tech and the reality of paying bills🙂.</p></p> </h3>
+              <h3 className="text-xl font-bold mb-4"> 💼 Work Experience <span className="text-xs text-gray-400">(PART-TIME)<span>Multithreading between dreams in tech and the reality of paying bills🙂.</span></span> </h3>
               
               <div className="space-y-4 text-gray-300">
                 <div>
@@ -147,9 +147,9 @@ export const About = () => {
                     {" "}
                     📎✏️Sales Assistant, Ryman(2024 - Present){" "}
                   </h4>
-                  <p className="text-sm italic">
+                  <span className="text-sm italic">
                   At Ryman, I have become best friend with the computer-printer duo - printing posters, processing courier services, and mastering binding, laminating, and business card printing. I’ve also become the go-to for all tech things, from fixing printer jams to ensuring everything works seamlessly. Multitasking became second nature as I juggled customer service and tech duties, keeping everything running like a well-oiled machine.
-                  </p>
+                  </span>
                 </div>
 
                 <div>
@@ -157,9 +157,9 @@ export const About = () => {
                     {" "}
                     🛒Sales Assistant, TK Maxx (2022-2024){" "}
                   </h4>
-                  <p className="text-sm italic">
+                  <span className="text-sm italic">
                   At TK Maxx, I became a customer service superhero, tackling everything from finding the perfect deal to untangling the mystery of missing price tags. I mastered multitasking (folding clothes while checking out customers? Easy!) and kept the store running smoothly, all while staying cool under pressure. Oh, and I was Assistant of the Month twice—proof I’m pretty great at what I do!
-                  </p>
+                  </span>
                 </div>
               </div>
             </div>

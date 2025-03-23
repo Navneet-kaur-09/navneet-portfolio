@@ -15,7 +15,7 @@ export const Projects = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2"> Restaurant Waiter Microservice </h3>
-              <p className="text-gray-400 mb-4">
+              <span className="text-gray-400 mb-4">
                 <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>Designed and implemented a distributed microservice architecture deployed on Google Cloud Platform</li>
                 <li>Developed RESTful APIs for seamless inter-service communication with proper error handling</li>
@@ -23,7 +23,7 @@ export const Projects = () => {
                 <li>Created containerized deployment with scalability considerations</li>
                 <li>Collaborated in an agile team of 4 developers, using Git for version control and code reviews</li>
               </ul>
-              </p>
+              </span>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Django", "REST framework", "SQLite", "GCP", "Microservices Architecture"].map((tech, key) => (
                   <span
@@ -55,7 +55,7 @@ export const Projects = () => {
             "
             >
               <h3 className="text-xl font-bold mb-2">Product Store App </h3>
-              <p className="text-gray-400 mb-4">
+              <span className="text-gray-400 mb-4">
                 <ul className="list-disc list-inside text-gray-300 space-y-2">
                   <li>Built a full-stack application with complete CRUD functionality and responsive design</li>
                   <li>Implemented RESTful API endpoints with proper error handling and authentication</li>
@@ -63,7 +63,7 @@ export const Projects = () => {
                   <li>Developed responsive UI optimized for both desktop and mobile devices</li>
                   
                 </ul>
-              </p>
+              </span>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["MERN Stack", "REST API"].map((tech, key) => (
                   <span
@@ -99,7 +99,7 @@ export const Projects = () => {
             "
             >
               <h3 className="text-xl font-bold mb-2">Firebase Chat App</h3>
-              <p className="text-gray-400 mb-4">
+              <span className="text-gray-400 mb-4">
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>Developed a real-time messaging application with user authentication and database integration</li>
                 <li>Implemented state management using Redux for predictable state changes</li>
@@ -107,7 +107,7 @@ export const Projects = () => {
                 <li>Designed and implemented distributed database architecture for message storage</li>
                 <li>Optimized application performance through code splitting and lazy loading</li>
               </ul>
-              </p>
+              </span>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["React Native", "Firebase", "Expo", "JavaScript", "Tailwind CSS"].map(
                   (tech) => (
@@ -145,7 +145,7 @@ export const Projects = () => {
             "
             >
               <h3 className="text-xl font-bold mb-2">Video Sharing App</h3>
-              <p className="text-gray-400 mb-4">
+              <span className="text-gray-400 mb-4">
               <ul className="list-disc list-inside text-gray-300 space-y-2">
               <li>Built a video sharing application with focus on scalable architecture and performance</li>
                 <li>Implemented efficient data storage and retrieval mechanisms for video content</li>
@@ -153,7 +153,7 @@ export const Projects = () => {
                 <li>Created responsive UI with smooth animations for enhanced user experience</li>
                 <li>Applied optimization techniques for handling large video files and streaming</li>
               </ul>
-              </p>
+              </span>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["React Native", "Node.js,", "Appwrite", "NativeWind", "Expo"].map((tech, key) => (
                   <span
