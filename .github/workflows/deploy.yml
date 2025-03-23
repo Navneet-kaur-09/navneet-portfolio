@@ -18,6 +18,10 @@ jobs:
 
       - name: Build the project
         run: npm run build
+        env:
+          VITE_PUBLIC_KEY: ${{ secrets.VITE_PUBLIC_KEY }}
+          VITE_TEMPLATE_ID: ${{ secrets.VITE_TEMPLATE_ID }}
+          VITE_USER_ID: ${{ secrets.VITE_USER_ID }}
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
