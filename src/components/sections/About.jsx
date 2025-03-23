@@ -21,7 +21,9 @@ export const About = () => {
       "CLOUD SERVICES/ DEPLOYMENT TOOLS: Google Cloud Platform (GCP), Firebase, Netlify, EAS for React Native",
       "CONTAINERIZATION & ORCHESTRATION: Docker, Kubernetes",
       "API TESTING: Postman",
-      "PROJECT MANAGEMENT: Agile methodologies"
+      "PROJECT MANAGEMENT: Agile methodologies",
+      "Data Science",
+      "Machine Learning"
   
     ];
 
@@ -50,7 +52,7 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-            With a strong academic background in computer science, I’m highly adaptable and quick to learn new skills and technologies. Experienced in full stack development and cloud deployments, eager to contribute to cutting-edge projects in the tech industry. Committed to continuous learning and contributing effectively to collaborative projects in a fast-paced tech environment.
+            With a strong academic background in computer science, I’m highly adaptable and quick to learn new skills and technologies. I am always looking to expand my knowledge and improve my skills. My self-learning mindset, adaptability and flexibility allows me to tackle new technologies and complex challenges with ease. I am committed to not just solving problems, but also evolving with the industry to deliver efficient and cutting-edge solutions.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
