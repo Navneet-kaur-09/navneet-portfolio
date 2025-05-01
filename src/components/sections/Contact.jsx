@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from "emailjs-com";
+import Footer from "../Footer";
 //import { useEffect } from "react";
 
 export const Contact = () => {
@@ -102,6 +103,7 @@ export const Contact = () => {
             </button>
           </form>
         </div>
+        
       </RevealOnScroll>
     </section>
   );
