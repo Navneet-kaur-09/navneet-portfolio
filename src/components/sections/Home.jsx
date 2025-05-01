@@ -13,7 +13,7 @@ export const Home = () => {
           </h1>
 
           <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-          A passionate tech enthusiast with a Master's in Advanced Computer Science, experienced in full stack development, cloud technologies, and building scalable applications.
+          A passionate tech enthusiast with a Master's in Advanced Computer Science, experienced in full stack development (mainly Javascript-based - React, Node.js, Express.js), cloud technologies, and building scalable applications.
           </p>
           <div className="flex justify-center space-x-4">
             <a

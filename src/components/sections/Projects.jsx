@@ -13,83 +13,8 @@ export const Projects = () => {
             Featured Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2"> Restaurant Waiter Microservice </h3>
-              <span className="text-gray-400 mb-4">
-                <ul className="list-disc list-inside text-gray-300 space-y-2">
-                <li>Designed and implemented a distributed microservice architecture deployed on Google Cloud Platform</li>
-                <li>Developed RESTful APIs for seamless inter-service communication with proper error handling</li>
-                <li> Implemented database schema optimization for efficient query performance</li>
-                <li>Created containerized deployment with scalability considerations</li>
-                <li>Collaborated in an agile team of 4 developers, using Git for version control and code reviews</li>
-              </ul>
-              </span>
-              <div className="flex flex-wrap gap-2 mb-4">
-                {["Django", "REST framework", "SQLite", "GCP", "Microservices Architecture"].map((tech, key) => (
-                  <span
-                    key={key}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
-                    "
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-
-              <div className="flex justify-between items-center">
-                <a
-                  href="https://github.com/Navneet-kaur-09/Restaurant-Waiter-Microservice" target="_blank"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
-                >
-                  View Project →
-                </a>
-              </div>
-            </div>
-            <div
-              className="
-              glass p-6 rounded-xl border border-white/10 
-              hover:-translate-y-1 hover:border-blue-500/30
-              hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
-              transition-all
-            "
-            >
-              <h3 className="text-xl font-bold mb-2">Product Store App </h3>
-              <span className="text-gray-400 mb-4">
-                <ul className="list-disc list-inside text-gray-300 space-y-2">
-                  <li>Built a full-stack application with complete CRUD functionality and responsive design</li>
-                  <li>Implemented RESTful API endpoints with proper error handling and authentication</li>
-                  <li>Designed relational database schema with optimized queries for data retrieval</li>
-                  <li>Developed responsive UI optimized for both desktop and mobile devices</li>
-                  
-                </ul>
-              </span>
-              <div className="flex flex-wrap gap-2 mb-4">
-                {["MERN Stack", "REST API"].map((tech, key) => (
-                  <span
-                    key={key}
-                    className="
-                      bg-blue-500/10 text-blue-500 py-1 px-3 
-                      rounded-full text-sm
-                      transition
-                      hover:bg-blue-500/20 hover:-translate-y-0.5
-                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
-                    "
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-              <div className="flex justify-between items-center">
-                <a
-                  href="https://github.com/Navneet-kaur-09/My-Product-store" target="_blank"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
-                >
-                  View Project →
-                </a>
-              </div>
-            </div>
-
+            
+            
             <div
               className="
               glass p-6 rounded-xl border border-white/10 
@@ -179,6 +104,85 @@ export const Projects = () => {
                 </a>
               </div>
             </div>
+
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <h3 className="text-xl font-bold mb-2"> Restaurant Waiter Microservice </h3>
+              <span className="text-gray-400 mb-4">
+                <ul className="list-disc list-inside text-gray-300 space-y-2">
+                <li>Designed and implemented a distributed microservice architecture deployed on Google Cloud Platform</li>
+                <li>Developed RESTful APIs for seamless inter-service communication with proper error handling</li>
+                <li> Implemented database schema optimization for efficient query performance</li>
+                <li>Created containerized deployment with scalability considerations</li>
+                <li>Collaborated in an agile team of 4 developers, using Git for version control and code reviews</li>
+              </ul>
+              </span>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["Django", "REST framework", "SQLite", "GCP", "Microservices Architecture"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
+                    "
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://github.com/Navneet-kaur-09/Restaurant-Waiter-Microservice" target="_blank"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+            
+            <div
+              className="
+              glass p-6 rounded-xl border border-white/10 
+              hover:-translate-y-1 hover:border-blue-500/30
+              hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
+              transition-all
+            "
+            >
+              <h3 className="text-xl font-bold mb-2">Product Store App </h3>
+              <span className="text-gray-400 mb-4">
+                <ul className="list-disc list-inside text-gray-300 space-y-2">
+                  <li>Built a full-stack application with complete CRUD functionality and responsive design</li>
+                  <li>Implemented RESTful API endpoints with proper error handling and authentication</li>
+                  <li>Designed relational database schema with optimized queries for data retrieval</li>
+                  <li>Developed responsive UI optimized for both desktop and mobile devices</li>
+                  
+                </ul>
+              </span>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["MERN Stack", "REST API"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="
+                      bg-blue-500/10 text-blue-500 py-1 px-3 
+                      rounded-full text-sm
+                      transition
+                      hover:bg-blue-500/20 hover:-translate-y-0.5
+                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
+                    "
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://github.com/Navneet-kaur-09/My-Product-store" target="_blank"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </RevealOnScroll>
