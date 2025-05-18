@@ -177,6 +177,17 @@ export const About = () => {
                   Master of missing tags, fast hands, and cool nerves - twice crowned Assistant of the Month.
                   </span>
                 </div>
+
+                <div>
+                  <h4 className="font-semibold">
+                    {" "}
+                    💻📅Executive Member, Electronics & IT Department, S.D. College, India(2018 - 2020){" "}
+                  </h4>
+                  <span className="text-sm italic">
+                 Event wrangler, host-with-the-most, and part-time designer-making academic gatherings look and feel cool.
+                  </span>
+                </div>
+
               </div>
             </div>
           </div>
