@@ -161,7 +161,7 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    📎✏️Sales Assistant, Ryman(2024 - Present){" "}
+                    📎✏️Sales Assistant, Ryman (2024 - Present){" "}
                   </h4>
                   <span className="text-sm italic">
                   Printer whisperer, courier queen, and tech-savvy multitasker—mastering binds, fixes, and customer chaos with a smile.
@@ -181,7 +181,7 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    💻📅Executive Member, Electronics & IT Department, S.D. College, India(2018 - 2020){" "}
+                    💻📅Executive Member, Electronics & IT Department, S.D. College, India (2018 - 2020){" "}
                   </h4>
                   <span className="text-sm italic">
                  Event wrangler, host-with-the-most, and part-time designer-making academic gatherings look and feel cool.
